@@ -24,6 +24,7 @@ jobs:
         with:
           path: af
           repository: ssciwr/adaptivefiltering
+          ref: filter-libraries
 
       - name: Create adaptivefiltering conda environment
         uses: conda-incubator/setup-miniconda@v2
