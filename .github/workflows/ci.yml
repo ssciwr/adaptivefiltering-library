@@ -40,8 +40,6 @@ jobs:
           python -m pip install .
 
       - name: Check all contained filters for their validity
-        shell: python
         working-directory: lib
         run: |
-          import adaptivefiltering
-          adaptivefiltering.add_filter_library("library")
+          python test_library.py
