@@ -1,9 +1,9 @@
 name: PyPI deploy
 
 on:
-  release:
-    types:
-      - published
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,13 @@ jobs:
 
     - uses: actions/setup-python@v2
       name: Install Python
+
+    - name: Bump version
+      uses: remorses/bump-version@js
+      with:
+          version_file: VERSION
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build source distribution
       run: |
