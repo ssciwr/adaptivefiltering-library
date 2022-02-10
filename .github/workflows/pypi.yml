@@ -20,7 +20,7 @@ jobs:
     - name: Bump version
       uses: remorses/bump-version@js
       with:
-          version_file: ./setup.cfg
+          version_file: VERSION
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
