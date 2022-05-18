@@ -7,7 +7,7 @@ If your contribution is of a different nature, please remove non-applicable part
 # Filter pipeline contribution
 
 Thanks for contributing your filter pipeline.
-You are only a few steps away from making your filter pipeline available to all users of `adaptivefiltering`.
+You are only a few steps away from making your filter pipeline available to all users of AFWizard.
 Please go through below checklist.
 
 I have read the following:
@@ -15,12 +15,12 @@ I have read the following:
 
 I have added/edited the following files:
 
-* [ ] At least on `.json` file with a filter pipeline exported by `adaptivefiltering` in the `adaptivefiltering_library` directory.
+* [ ] At least on `.json` file with a filter pipeline exported by AFWizard in the `afwizard_library` directory.
 * [ ] I have added my name to `COPYING.md`
 
 Each filter pipeline that you add should fill the following criteria:
 
-* [ ] It only uses backends that are available in the latest version of `adaptivefiltering`
+* [ ] It only uses backends that are available in the latest version of AFWizard
 * [ ] It defines the following metadata
   * [ ] Author
   * [ ] At least one keyword

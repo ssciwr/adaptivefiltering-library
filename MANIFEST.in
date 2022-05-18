@@ -1,2 +1,2 @@
-include adaptivefiltering_library/*.json
+include afwizard_library/*.json
 include VERSION
