@@ -38,7 +38,7 @@ jobs:
       - name: Install adaptivefiltering Python package
         working-directory: af
         run: |
-          python -m pip install .
+          python -m pip install --no-deps .
 
       - name: Check all contained filters for their validity
         working-directory: lib
