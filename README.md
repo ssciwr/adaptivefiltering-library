@@ -1,7 +1,7 @@
 # afwizard-library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI Release](https://img.shields.io/pypi/v/adaptivefiltering-library.svg)](https://pypi.org/project/afwizard-library)
+[![PyPI Release](https://img.shields.io/pypi/v/afwizard-library.svg)](https://pypi.org/project/afwizard-library)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/afwizard-library.svg)](https://anaconda.org/conda-forge/afwizard-library)
 [![Documentation Status](https://readthedocs.org/projects/adaptivefiltering/badge/)](https://afwizard.readthedocs.io/en/latest/libraries.html)
 
